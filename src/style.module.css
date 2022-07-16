@@ -1,0 +1,158 @@
+.container{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+ 
+.colFour{
+   
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+}
+ 
+.colEight{
+    background-color: rgb(251, 251, 251);
+    padding: 35px;
+}
+ 
+.formContainer{
+    width: 50%;
+}
+ 
+.formControl{
+    color: gray;
+}
+ 
+.tabForms{
+    width: inherit;
+    margin: 10px;
+}
+ 
+.firstTabDiv{
+    margin-top: 5px;
+}
+ 
+.operationName{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+ 
+.paramFormsContainer{
+    display: flex;
+    margin-top: 20px;
+}
+ 
+.paramFormsBtn{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+                background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color:#f9f9f9;
+                /* border-radius:6px; */
+                border:1px solid #dcdcdc;
+                display:inline-block;
+                cursor:pointer;
+                color:#666666;
+                font-family:Arial;
+                font-size:15px;
+                font-weight:bold;
+                padding:5px 22px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+}
+ 
+.pathParamFormsBtn{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+                background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color:#f9f9f9;
+                /* border-radius:6px; */
+                border:1px solid #dcdcdc;
+                display:inline-block;
+                cursor:pointer;
+                color:#666666;
+                font-family:Arial;
+                font-size:15px;
+                font-weight:bold;
+                padding:5px 16px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+}
+ 
+.operationsBtnContainer{
+                display: flex;
+                margin-top: 20px;
+                font-size: 15px;
+                margin-left: 2px;
+}
+ 
+.operationsBtn{
+                background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+               
+}
+ 
+.operationsBtn:hover{
+                background-color: rgb(224, 224, 224);
+                border-radius: 2px;
+}
+ 
+.pathParamsFormParentContainer{
+                /* display:flex;
+                flex-direction: column; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+}
+ 
+.pathParamsFormChildContainer{
+                display: inline-block;
+}
+ 
+.addParamsBtn{
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color:#f9f9f9;
+                /* border-radius:6px; */
+                border:1px solid #dcdcdc;
+                display:inline-block;
+                cursor:pointer;
+                color:#666666;
+                font-family:Arial;
+                font-size:15px;
+                font-weight:bold;
+                padding:5px 9px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+}
+ 
+.removeParamsBtn{
+                box-shadow:inset 0px 1px 0px 0px #ffffff;
+                background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+                background-color:#f9f9f9;
+                /* border-radius:6px; */
+                border:1px solid #dcdcdc;
+                display:inline-block;
+                cursor:pointer;
+                color:#666666;
+                font-family:Arial;
+                font-size:15px;
+                font-weight:bold;
+                padding:5px 9px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+}
+ 
+.GetOperation{
+                margin-top: 20px;
+                display: flex;
+                width: 150px;
+                text-align: left;
+               
+}
+
+.getHeadersFormContainer{
+    
+}
