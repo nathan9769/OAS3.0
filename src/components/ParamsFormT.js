@@ -782,6 +782,7 @@ const ParamsFormT = () => {
                                     <button type="button" onClick={()=> setIsToggledPutQueryParamBtn(!isToggledPutQueryParamBtn)}>+ Query Param</button>
                                     <button type='button' onClick={()=>setIsToggledPutCookieBtn(!isToggledPutCookieBtn)}>+ Cookie</button>
                                     <button type="button" onClick={()=>setIsToggledPutSecurityBtn(!isToggledPutSecurityBtn)}>+ Security</button>
+                                    <button type='button' onClick={()=>setIsToggledPutResponseBtn(!isToggledPutResponseBtn)}>+ Responses</button>
                                     <br></br>
                                     {isToggledPutHeaderBtn &&
                                     putOperationAddHeaderFormData.map((formData,index)=>(
